@@ -38,4 +38,3 @@ builder.defineStreamHandler(async ({ id }) => {
 });
 
 module.exports = (req, res) => builder.getInterface()(req, res);
-
