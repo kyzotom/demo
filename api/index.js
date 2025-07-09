@@ -37,5 +37,5 @@ builder.defineStreamHandler(async ({ id }) => {
   }
 });
 
-// Správny export pre Vercel serverless funkciu:
 module.exports = (req, res) => builder.getInterface()(req, res);
+
