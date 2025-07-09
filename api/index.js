@@ -18,7 +18,7 @@ const manifest = {
   idPrefixes: ["tt"]
 };
 
-const builder = new addonBuilder(manifest);
+const builder = addonBuilder(manifest);
 
 builder.defineCatalogHandler((args) => {
   return Promise.resolve({ metas: [] });
